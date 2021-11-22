@@ -90,7 +90,7 @@ Visual Studio merupakan IDE/text-editor yang sedang naik daun. ada beberapa vers
 - VSCODE server yg dpt diinstall di server/headless pc/laptop. untuk dpt diakses dari mana saja (lokal & internet)
 - VSCODE.dev yg dpt langsung melakukan edit file di repository github (terkoneksi), seperti VSCODE server tapi di host pada server yg dimiliki oleh microsoft, kita tinggal pakai
 
-contoh memakai vscode.dev: [whypeout/hugo-static](vscode.dev/github.com/hugo-static)
+contoh memakai vscode.dev: [whypeout/hugo-static](https://vscode.dev/github.com/hugo-static)
 akan ada tahapan otentikasi, seperti: login ke akun github, memberikan otorisasi ke vscode.dev untuk mengakses infomasi github, dll
 
 
