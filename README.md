@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f151571-c9f5-4eb3-a487-35997dbdc4c5/deploy-status)](https://app.netlify.com/sites/whypeout-static/deploys)

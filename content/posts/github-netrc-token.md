@@ -72,7 +72,6 @@ sebagai alternatif, github menyediakan otentikasi menggunakan SSH over HTTPS.
 ssh -T -p 443 git@ssh.github.com
 Hi whypeout! You've successfully authenticated, but GitHub does not provide shell access.
 
-
 # buat host config untuk github, `nano ~/.ssh/config`
 Host github.com
 Hostname ssh.github.com
@@ -82,10 +81,17 @@ User git
 # test koneksi lagi
 ssh -T git@github.com
 Hi whypeout! You've successfully authenticated, but GitHub does not provide shell access.
-
 ```
 
+## Mengedit menggunakan VSCODE.dev
 
+Visual Studio merupakan IDE/text-editor yang sedang naik daun. ada beberapa versi dari VSCODE ini,
+- VSCODE yg dpt diinstall di pc/laptop client. support linux, windows & mac
+- VSCODE server yg dpt diinstall di server/headless pc/laptop. untuk dpt diakses dari mana saja (lokal & internet)
+- VSCODE.dev yg dpt langsung melakukan edit file di repository github (terkoneksi), seperti VSCODE server tapi di host pada server yg dimiliki oleh microsoft, kita tinggal pakai
+
+contoh memakai vscode.dev: [whypeout/hugo-static](vscode.dev/github.com/hugo-static)
+akan ada tahapan otentikasi, seperti: login ke akun github, memberikan otorisasi ke vscode.dev untuk mengakses infomasi github, dll
 
 
 sumber:
@@ -94,3 +100,4 @@ sumber:
 - [https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 - [https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port#enabling-ssh-connections-over-https](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port#enabling-ssh-connections-over-https)
+- [https://github.com/cdr/code-server](https://github.com/cdr/code-server)
